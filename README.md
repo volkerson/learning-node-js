@@ -3,7 +3,7 @@
 ## create server
 A short scripts that demonstrates how to create a server with node.js.
 
-## routers and user input (1)
+## routes and user input (1)
 Challenge: Create a sever with a text-input on the root path. After submitting crate a .txt-file with that contents the user-input and go back to the root folder.
 
 ## routes and user input (2)

@@ -1,4 +1,4 @@
-# <Node Code Snippets />
+# Node.js Code Snippets
 
 ## create server
 A short scripts that demonstrates how to create a server with node.js.

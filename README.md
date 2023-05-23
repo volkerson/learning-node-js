@@ -1,4 +1,5 @@
-# Node.js Code Snippets
+# My joruney to learn Node.js
+This code snippets is nothing I invented. I'm learning with the YouTute-Tutorial by the amazing Dave Gray and a Udemy-Course.
 
 ## create server
 A short scripts that demonstrates how to create a server with node.js.
@@ -17,3 +18,6 @@ Challenge:
 
 ## file operations
 how to work with files the most efficient way
+
+## event emitter
+a simple log event emitter

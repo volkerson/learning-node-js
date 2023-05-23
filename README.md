@@ -1,5 +1,8 @@
 # My joruney to learn Node.js
-This code snippets is nothing I invented. I'm learning with the YouTute-Tutorial by the amazing Dave Gray and a Udemy-Course.
+This code snippets is nothing I invented on my won. I'm learning with the YouTute-Tutorial by the amazing Dave Gray and a Udemy-Course by Maximillian Schwarzmüller and try to reproduce the code.
+<br><br>
+Node.js-Youtube-Course by Dave Gray: https://www.youtube.com/watch?v=f2EqECiTBL8&t=2957s<br><br>
+Udemy Courses by M. Schwarzmüller, NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno), [https://www.udemy.com/user/maximilian-schwarzmuller/](https://www.udemy.com/course/nodejs-the-complete-guide/)
 
 ## create server
 A short scripts that demonstrates how to create a server with node.js.

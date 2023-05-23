@@ -14,3 +14,6 @@ Challenge:
   - Return a list of dummy users
 3. Add a form with "username" (text-input) to the "/"-page and submit a POST -request to "/create-user" upon a button click
 4. Add the "create-user"-route and parse the incoming data (i.e. the username) and simply to log it to the console
+
+## file operations
+how to work with files the most efficient way

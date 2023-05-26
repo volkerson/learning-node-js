@@ -24,3 +24,5 @@ how to work with files the most efficient way
 
 ## event emitter
 a simple log event emitter
+
+# using express.js: router, path, static and path

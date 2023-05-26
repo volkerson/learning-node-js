@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a new product</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a  href="/">Shop Index</a></li>
+                <li class="main-header__item"><a class="active" href="/admin/add-product">Add new product</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Add new product</h1>
+        <form class="add-product" method="POST" action="add-product">
+            <fieldset class="add-product__product-info">
+                <label for="produtname">Title</label>
+                <input type="text" required id="produtname" />
+                <button type="submit">Add Product</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

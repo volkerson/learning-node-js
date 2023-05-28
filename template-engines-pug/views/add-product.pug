@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{pageTitle}
+        link(rel="stylesheet", href="/css/style.css")
+    body 
+        header.main-header
+            nav.main-header__nav
+                ul.main-header__item-list
+                    li.main-header__item
+                        a(href="/") Shop Index
+                    li.main-header__item
+                        a.active(href="/admin/add-product") Add new product
+        main
+            h1 Add new product
+                form.add-product(method="POST", action="add-product")
+                    fieldset.add-product__product-info
+                        label(for="product__name") Title
+                        input(type="text", required, name="product__name")#product__name
+                        label(for="product__description") Description
+                        input(type="text", required, name="product__description")#product__description
+                        label(for="product__price") Price
+                        input(type="text", required, name="product__price")#product__price                
+                        label(for="product__imgurl") Img Url
+                        input(type="text", required, name="product__imgurl")#product__imgurl                                
+                        button(type="submit") Add Product  

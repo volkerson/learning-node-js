@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include('includes/header'); %>
+    <main>
+        <h1>Add new product</h1>
+        <form class="add-product" method="POST" action="add-product">
+            <fieldset class="add-product__product-info">
+                <label for="product__name">Title</label>
+                <input type="text" required id="product__name" name="product__name" />
+                <label for="product__description">Description</label>
+                <input type="text" required id="product__description" name="product__description" />
+                <label for="product__price">Price</label>
+                <input type="text" required id="product__price" name="product__price" />                
+                <label for="product__imgurl">Img Url</label>
+                <input type="text" required id="product__imgurl" name="product__imgurl" />                                 
+                <button type="submit">Add Product</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
